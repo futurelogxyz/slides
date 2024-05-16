@@ -1,5 +1,6 @@
 {
   "name": "slidev",
+  "type": "module",
   "private": true,
   "scripts": {
     "build": "slidev build",
@@ -7,8 +8,10 @@
     "export": "slidev export"
   },
   "dependencies": {
-    "@slidev/cli": "^0.42.7",
+    "@slidev/cli": "^0.48.0-beta.22",
     "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest"
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.4.21",
+    "vue-demi": "^0.14.7"
   }
 }
